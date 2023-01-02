@@ -8,7 +8,7 @@ if(isset($POST['enviar'])){
         $header = "From: norepl@example.com" . "\r\n";
         $header.= "Reply-To: norepl@example.com" . "\r\n";
         $header .= "X-Mailer: PHP" . phpversion();
-        mail($email,$asunto,$mendaje,$header);
+        @mail($email,$asunto,$mendaje,$header);
         if($email){
            echo "Swal . fire('¡¡Email enviao exitosamente!!', 'Has click en el boton', 'success')" ;
         }

@@ -1,5 +1,9 @@
+<?php
+include("redireccionamiento.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <title>Portafolio</title>
 </head>
+
 <body>
     <header>
         <section class="cabecera">
@@ -33,8 +38,8 @@
         <section class="introduccion">
             <div class="introduccion__contenido">
                 <h1 class="introduccion__titulo">Hola, mi nombre es David Alejandro Cortes Ramirez y soy desarrollador</h1>
-                <p class="introduccion__descripcion">Estoy formado en la universidad distrital francisco jose de caldas 
-                    en la ciudad de Bogota de colombia y actualmente me encuentro en una formacion de associate con la 
+                <p class="introduccion__descripcion">Estoy formado en la universidad distrital francisco jose de caldas
+                    en la ciudad de Bogota de colombia y actualmente me encuentro en una formacion de associate con la
                     empresa Blanc labs de canada y estoy participando del proyecto Oracle ONE en Alura Latam. </p>
                 <div class="introduccion__redes__sociales">
                     <li class="redes__item"><a class="redes__link" href="https://github.com/AlejandroCortes0221">Github &#10532;</a></li>
@@ -51,8 +56,8 @@
     <main>
         <section class="sobre__mi" id="sobre-mi">
             <div class="sobre__info">
-                 <h1 class="sobre__titulo">Sobre mi</h1>
-                 <p class="sobre__descripcion">Actualmente estoy estudiando una tecnología en sistemas en la universidad francisco José de caldas en Colombia, me
+                <h1 class="sobre__titulo">Sobre mi</h1>
+                <p class="sobre__descripcion">Actualmente estoy estudiando una tecnología en sistemas en la universidad francisco José de caldas en Colombia, me
                     encuentro muy interesado en aprender cada día mas y mas, estoy en búsqueda de oportunidades laborales para poner en
                     practica lo aprendido y crecer profesionalmente y por que no también personalmente.
                 </p>
@@ -175,7 +180,7 @@
                     Complete el siguiente formulario y me pondre en contacto con usted lo antes posible
                 </h2>
                 <div class="contacto__formulario">
-                    <form action="https://formsubmit.co/acr20020221@gmail.com" method="POST">
+                    <form method="POST">
                         <input class="contacto__form__text" type="text" required placeholder="Nombre" name="Nombre">
                         <input class="contacto__form__text" type="email" required placeholder="Email" name="Email">
                         <input class="contacto__form__text" type="text" required placeholder="Asunto" name="Asunto">
@@ -188,4 +193,5 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.35/dist/sweetalert2.all.min.js"></script>
 </body>
+
 </html>
