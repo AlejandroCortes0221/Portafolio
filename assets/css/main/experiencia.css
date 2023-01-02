@@ -1,0 +1,79 @@
+.experiencia{
+    background: #F5F5F5;;
+}
+.experiencia__info{
+    width: 80%;
+    margin: 0 auto;
+}
+.experiencia__titulo{
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.experiencia__lista{
+    display: block;
+}
+
+.experiencia__imagen{
+    width: 700px;
+    height: 400px;
+    box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.5)
+}
+.experiencia__item{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.experiencia__item:nth-child(1) .experiencia__imagen{
+    background: url("../../img/Encriptador.png") no-repeat center / cover;
+    margin-right: 20px;
+}
+.experiencia__item:nth-child(2) .experiencia__imagen {
+    background: url("../../img/ahorcado.png") no-repeat center / cover;
+    margin-left: 150px;
+}
+.experiencia__item__info{
+    margin: 0 
+}
+.experiencia__item__titulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #464646;
+}
+.experiencia__item__descripcion{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+
+.experiencia__btn__repositorio{
+    background: #F5F5F5;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px 5px 0 0;
+}
+.experiencia__btn__repositorio:hover{
+    background: #cef0f5;
+}
+.experiencia__btn__demo {
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px 5px 0 0;
+}
+.experiencia__btn__demo:hover{
+    background: #1a63c4;
+}

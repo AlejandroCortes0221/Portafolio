@@ -1,0 +1,53 @@
+.formacion{
+    background: #EAF2FD;
+}
+.formacion__info{
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 40px;
+}
+.formacion__titulo{
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    padding: 40px 0 30px 0;
+    text-align: center;
+}
+.formacion__lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.formacion__imagen{
+    background: #ffffff;
+    width: 340px;
+    height: 286px;
+}
+.formacion__item:nth-child(1) .formacion__imagen {
+    background: url(../../img/distrital.png) no-repeat center / cover;
+}
+.formacion__item:nth-child(2) .formacion__imagen{
+    background: url(../../img/blancLabs.png) no-repeat center / cover;
+}
+.formacion__item:nth-child(3) .formacion__imagen{
+    background: url(../../img/alura.png) no-repeat center / cover;
+}
+
+.formacion__nombre{
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px 0;
+}
+.formacion__año{
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}

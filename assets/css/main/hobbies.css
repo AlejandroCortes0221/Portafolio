@@ -1,0 +1,56 @@
+.hobbies{
+    background: #F5F5F5;
+}
+
+.hobbies__info {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 40px 0;
+}
+
+.hobbies__titulo {
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.hobbies__lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hobbies__individual {
+    width: 170px;
+    height: 174px;
+}
+
+.hobbies__item:nth-child(1) {
+    background: url("../../img/futbol.jpg") no-repeat center / cover;
+}
+
+.hobbies__item:nth-child(2) {
+    background: url("../../img/musica.jpg") no-repeat center / cover;
+}
+
+.hobbies__item:nth-child(3) {
+    background: url("../../img/programar.jpg") no-repeat center / cover;
+}
+
+.hobbies__item:nth-child(4) {
+    background: url("../../img/series.jpg") no-repeat center / cover;
+}
+
+.hobbies__item:nth-child(5) {
+    background: url("../../img/video_juegos.webp") no-repeat center / cover;
+}
+
+.hobbies__item:nth-child(6) {
+    background: url("../../img/cocinar.jpg") no-repeat center / cover;
+}

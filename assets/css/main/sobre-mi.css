@@ -1,0 +1,25 @@
+.sobre__mi{
+    background: #EAF2FD;
+    padding: 80px 0;
+}
+.sobre__info{
+    margin: 0 auto;
+    width: 80%;
+}
+.sobre__titulo{
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 30px;
+}
+.sobre__descripcion{
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    width: 780px;
+}
