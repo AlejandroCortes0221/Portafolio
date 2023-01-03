@@ -1,9 +1,9 @@
 .introduccion{
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 60px;
     width: 80%;
 }
 .introduccion__contenido{
@@ -47,4 +47,11 @@
     border-radius: 100%;
     height: 300px;
     width: 300px;
+}
+
+@media (max-width: 767px) {
+    .introduccion{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }

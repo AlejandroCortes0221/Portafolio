@@ -4,7 +4,7 @@
 .formacion__info{
     margin: 0 auto;
     width: 80%;
-    padding-bottom: 40px;
+    padding: 40px 0;
 }
 .formacion__titulo{
     color: #464646;
@@ -25,6 +25,9 @@
     background: #ffffff;
     width: 340px;
     height: 286px;
+}
+.formacion__item{
+    margin: 20px 0;
 }
 .formacion__item:nth-child(1) .formacion__imagen {
     background: url(../../img/distrital.png) no-repeat center / cover;

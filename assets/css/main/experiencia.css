@@ -4,12 +4,13 @@
 .experiencia__info{
     width: 80%;
     margin: 0 auto;
+    padding: 40px 0;
 }
 .experiencia__titulo{
     color: #464646;
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 32px;
     padding: 40px 0;
     text-align: center;
@@ -20,9 +21,9 @@
 }
 
 .experiencia__imagen{
-    width: 700px;
+    width: 730px;
     height: 400px;
-    box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.5)
+    box-shadow: 8px 10px 10px 1px rgba(0, 0, 0, 0.5);
 }
 .experiencia__item{
     display: flex;
@@ -33,6 +34,10 @@
     background: url("../../img/Encriptador.png") no-repeat center / cover;
     margin-right: 20px;
 }
+.experiencia__item:nth-child(2){
+    flex-direction: row-reverse;
+}
+
 .experiencia__item:nth-child(2) .experiencia__imagen {
     background: url("../../img/ahorcado.png") no-repeat center / cover;
     margin-left: 150px;
@@ -43,7 +48,7 @@
 .experiencia__item__titulo{
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 22px;
     color: #464646;
 }
@@ -76,4 +81,50 @@
 }
 .experiencia__btn__demo:hover{
     background: #1a63c4;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .experiencia__item__titulo{
+        margin-top: 40px;
+    }
+    .experiencia__item {
+        display: block;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .experiencia__imagen {
+        width: auto;
+        height: 400px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .experiencia__item:nth-child(1) .experiencia__imagen { 
+        margin: 0 auto;
+    }
+    .experiencia__item:nth-child(2) .experiencia__imagen {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .experiencia__item__titulo{
+        margin-top: 40px;
+    }
+    .experiencia__item {
+        display: block;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .experiencia__imagen {
+        width: auto;
+        height: 200px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .experiencia__item:nth-child(1) .experiencia__imagen { 
+        margin: 0 auto;
+    }
+    .experiencia__item:nth-child(2) .experiencia__imagen {
+        margin: 0 auto;
+    }
 }

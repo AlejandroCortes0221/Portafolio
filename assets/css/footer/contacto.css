@@ -30,6 +30,7 @@
     font-size: 16px;
     color: #464646;
 }
+
 .contacto__formulario .contacto__form__text:nth-child(1n){
     display: block;
     width: 100%;
@@ -44,6 +45,9 @@
 }
 .contacto__formulario .contacto__form__text:nth-child(4) {
     height: 150px;
+    border: 0;
+    outline: none;
+    resize: none;
 }
 
 .contacto__form__boton{
@@ -57,4 +61,32 @@
 }
 .contacto__form__boton:hover{
     background: #1a63c4;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contacto__info {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding: 80px 0 40px 0;
+    }
+    .contacto__llama:nth-child(1) {
+        background: none;
+        width: 2px;
+        height: 2px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contacto__info {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding: 80px 0 40px 0;
+    }
+    .contacto__llama:nth-child(1) {
+        background: none;
+        width: 2px;
+        height: 2px;
+    }
 }

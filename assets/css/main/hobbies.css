@@ -15,7 +15,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    padding-bottom: 40px;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -29,6 +29,9 @@
 .hobbies__individual {
     width: 170px;
     height: 174px;
+}
+.hobbies__item{
+    margin: 20px 0;
 }
 
 .hobbies__item:nth-child(1) {
