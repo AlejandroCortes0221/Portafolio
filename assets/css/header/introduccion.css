@@ -33,8 +33,18 @@
 .redes__item{
     padding: 20px 20px 80px 0;
 }
-.redes__link:hover{
-    border-bottom: 1px solid #464646;
+
+.redes__item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #464646;
+    transition: width .3s;
+}
+
+.redes__item::after {
+    width: 100%;
 }
 .introduccion__imagen{
     background: url("../../img/Foto.png");
