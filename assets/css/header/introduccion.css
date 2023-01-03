@@ -43,7 +43,7 @@
     transition: width .3s;
 }
 
-.redes__link::after {
+.redes__link:hover::after {
     width: 100%;
 }
 .introduccion__imagen{
