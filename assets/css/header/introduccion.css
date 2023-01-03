@@ -46,6 +46,7 @@
 .redes__link:hover::after {
     width: 100%;
 }
+
 .introduccion__imagen{
     background: url("../../img/Foto.png");
 }
