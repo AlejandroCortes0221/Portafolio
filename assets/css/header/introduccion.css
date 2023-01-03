@@ -34,7 +34,7 @@
     padding: 20px 20px 80px 0;
 }
 
-.redes__item::after {
+.redes__link::after {
     content: '';
     display: block;
     width: 0;
@@ -43,7 +43,7 @@
     transition: width .3s;
 }
 
-.redes__item::after {
+.redes__link::after {
     width: 100%;
 }
 .introduccion__imagen{
